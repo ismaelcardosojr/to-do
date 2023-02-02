@@ -34,7 +34,6 @@ function appendCompleteEvent(newTask) {
         }
 
         counter++;
-        console.log(counter);
     }
 }
 
