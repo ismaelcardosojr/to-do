@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-do!</title>
+        <link rel="icon" href="assets/img/page-icon.svg">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body class="body-container flex-item main-bg">
+        <main class="main-container">
+            <section class="task-saving">
+                <h1 class="heading">Save your next task</h1>
+                <form class="form-container flex-item">
+                    <input type="text" id="task-input" class="card orange-border" placeholder="What do you want to do?">
+                    <button type="submit" class="add-button button-model flex-item">
+                        <img class="add-icon icon-model orange-border" src="assets/img/add-icon.svg"
+                            alt="Icon to add a new task">
+                    </button>
+                </form>
+            </section>
+            <section class="task-dashboard">
+                <h1 class="heading">These are your taks</h1>
+                <ul id="task-list">
+                    <li class="task-container card flex-item template hide">
+                        <h2 class="task-title"></h2>
+                        <div class="control-panel flex-item">
+                            <button class="complete-button button-model flex-item">
+                                <img class="complete-icon icon-model" src="assets/img/complete-icon.svg" 
+                                    alt="Icon to complete the current task">
+                            </button>
+                            <button class="descart-button button-model flex-item">
+                                <img class="descart-icon icon-model" src="assets/img/descart-icon.svg" 
+                                    alt="Icon to descart the current task">
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer-container">
+            <p>
+                Developed by 
+                <a href="https://github.com/ismaelcardosojr" target="_blank">
+                    ismaelcardosojr
+                </a>
+            </p>
+        </footer>
+        <script src="assets/js/scripts.js"></script>
+    </body>
+</html>
